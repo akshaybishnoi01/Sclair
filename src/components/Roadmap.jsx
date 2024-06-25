@@ -7,7 +7,7 @@ import trading_chart from '../assets/image/trading_chart.webp'
 const Roadmap = () => {
   return (
     <>
-      <div className=' position-relative roadmap_bg' id='roadmap'>
+      <div className=' position-relative roadmap_bg overflow-hidden' id='roadmap'>
         <Container className=' roadmap_py position-relative'>
           <h3 className=' mb-0 ff-manrope fw-semibold fs-48 lh-57 color_tertiary text-center' data-aos="zoom-in">
             Roadmap
@@ -156,8 +156,8 @@ const Roadmap = () => {
             <img className=' w-100' src={trading_chart} alt="#" />
           </div>
         </Container>
-        <div className=' trad_chart d-xxl-none d-block' data-aos="fade-up-right">
-          <img className=' w-100' src={trading_chart} alt="#" />
+        <div className=' trad_chart d-xxl-none d-block'>
+          <img  src={trading_chart} alt="#" />
         </div>
 
       </div>

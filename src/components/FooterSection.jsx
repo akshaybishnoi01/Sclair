@@ -14,7 +14,7 @@ const FooterSection = () => {
               and Baby Sinclair is wielding it with style. The bad players better watch out;
               the crypto defender is here, armed with memes and ready to act.
             </p>
-            <ul className=' d-flex justify-content-center align-items-center gap_32 mb-0 flex-wrap'>
+            <ul className=' d-flex justify-content-center p-0 align-items-center gap_32 mb-0 flex-wrap'>
               <li><a className=' mb-0 ff-manrope fs-16 lh-24 fw-medium webkit color_lightwh' href="#about">About</a></li>
               <li><a className=' mb-0 ff-manrope fs-16 lh-24 fw-medium webkit color_lightwh' href="#tokenomics">Tokenomics</a></li>
               <li><a className=' mb-0 ff-manrope fs-16 lh-24 fw-medium webkit color_lightwh' href="#audit">Audit</a></li>
