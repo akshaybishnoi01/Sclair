@@ -152,7 +152,7 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-          <div className=' d-xxl-block d-none trad_chart' data-aos="fade-up-right">
+          <div className=' d-xxl-block d-none trad_chart'>
             <img className=' w-100' src={trading_chart} alt="#" />
           </div>
         </Container>
