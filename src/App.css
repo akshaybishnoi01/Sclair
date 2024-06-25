@@ -52,13 +52,6 @@ body {
   border: none !important;
 }
 
-
-.btn-success {
-  background-color: transparent !important;
-  border: none !important;
-
-}
-
 .bg_lang {
   background-color: #12181D !important;
 }
@@ -110,11 +103,6 @@ body {
 .dropdown-item:hover {
   background-color: #0C0F14 !important;
 }
-
-
-
-
-
 
 .lang {
   color: var(--color-secondary-) !important;
@@ -240,17 +228,6 @@ body {
   z-index: -1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .pos_amount {
   position: absolute;
   bottom: 2%;
@@ -355,11 +332,6 @@ input[type='range']::-webkit-slider-thumb {
   bottom: 60%;
   right: 5%;
 }
-
-
-
-
-
 
 /* ================ Smart Contract ================ */
 
@@ -475,12 +447,6 @@ input[type='range']::-webkit-slider-thumb {
 
 }
 
-
-
-
-
-
-
 .community_pt {
   padding-top: 60px;
 }
@@ -489,7 +455,6 @@ input[type='range']::-webkit-slider-thumb {
   padding-top: 124px;
   padding-bottom: 96px;
 }
-
 
 .chart_bg {
   background-image: url(./assets/image/chart_bg.webp);
@@ -502,8 +467,6 @@ input[type='range']::-webkit-slider-thumb {
 .pro_mw {
   max-width: 132px;
 }
-
-
 
 
 /* =========== Audited ============== */
@@ -649,14 +612,6 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 
-
-
-
-
-
-
-
-
 .gap_90 {
   gap: 90px;
 }
@@ -696,7 +651,6 @@ input[type='range']::-webkit-slider-thumb {
   top: 40%;
   left: 0;
 }
-
 
 
 /* ================== Questions ================= */
@@ -835,13 +789,6 @@ input[type='range']::-webkit-slider-thumb {
   padding-top: 124px;
   padding-bottom: 32px;
 }
-
-
-
-
-
-
-
 
 /* ===================== footer============== */
 .mw_626 {
