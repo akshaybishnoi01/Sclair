@@ -1230,4 +1230,8 @@ input[type='range']::-webkit-slider-thumb {
   .gap_32 {
     gap: 15px;
   }
+  .accordion_my {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
 }

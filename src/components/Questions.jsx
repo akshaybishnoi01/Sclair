@@ -11,14 +11,14 @@ const Questions = () => {
                     <div className=' d-flex justify-content-center '>
                         <div className="accordion mt-5  mw_800 w-100" id="accordionExample">
                             <div class="accordion-item" data-aos="flip-up">
-                                <h2 class="accordion-header" id="headingOne">
+                                <h2 class="accordion-header " id="headingOne">
                                     <button class="accordion-button collapsed "
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                         aria-expanded="true" aria-controls="collapseOne">
                                         <span className=' mb-0 ff-manrope fs-16 lh-24'>WHAT IS $CLAIR?</span>
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body  mw_536">
                                         <span className=' mb-0 ff-manrope fs-16 fw-normal lh-24 color_lightgray'>Built on the Ethereum blockchain and powered by the most advanced
