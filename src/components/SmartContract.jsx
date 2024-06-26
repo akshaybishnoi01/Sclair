@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
 const SmartContract = () => {
   const [copied, setCopied] = useState(false);
-  const [text, setText] = useState('Some text to copy');
+  const [text, setText] = useState('0xFD1929755F73f974648daD00ab491a7C44a00eeD');
 
   const handleCopy = async () => {
     try {
