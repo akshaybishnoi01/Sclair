@@ -1,6 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
 const SmartContract = () => {
+  const [copied, setCopied] = useState(false);
+  const [text, setText] = useState('Some text to copy');
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => {
+        setCopied(false);
+      }, 1500);
+    } catch (err) {
+      console.error("Failed to copy text to clipboard: ", err);
+    }
+  };
+
   return (
     <>
       <div className=' smart_bg' id='privacy'>
@@ -10,10 +25,9 @@ const SmartContract = () => {
               <span className=' color_emphasis'>$CLAIR</span> Smart Contract Address
             </h2>
             <div className=' d-flex inp_w  text_py w-100'>
-              <input type="text" placeholder='0xFD1929755F73f974648daD00ab491a7C44a00eeD' className=' mb-0 ps-2 me-sm-0 me-3  ff-manrope fs-16 fw-semibold lh-24 color_secondary w-100 xyz bg_copy' />
-              <button className=' mb-0 ff-manrope fs-16 lh-24 fw-bold copy_btn  '>
-                Copy
-              </button>
+              <input type="text" placeholder='0xFD1929755F73f974648daD00ab491a7C44a00eeD' className=' mb-0 ps-2 me-sm-0 me-3  ff-manrope fs-16 fw-semibold lh-24 color_secondary w-100 xyz bg_copy'  onChange={(e) => setText(e.target.value)}/>
+              <button className=' mb-0 ff-manrope fs-16 lh-24 fw-bold copy_btn  ' onClick={handleCopy}>{copied? 'Copied!' : 'Copy'} 
+                        </button>
 
             </div>
             <p className=' mb-0 ff-manrope fs-16 lh-24 fw-normal color_lightgray built_w text-center'>
