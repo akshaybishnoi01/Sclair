@@ -17,7 +17,7 @@ const Herosection = () => {
     <>
       <header className=' header_bgimg position-relative'>
         <nav className=" nav_bg">
-          <Container>
+          <Container className=' nav_w w-100'>
             <div className="  d-flex justify-content-between align-items-center nav_py ">
               <div className=" d-flex align-items-center gap-2">
                 <img src={logo} alt="logo" />

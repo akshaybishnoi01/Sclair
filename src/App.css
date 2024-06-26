@@ -917,6 +917,10 @@ input[type='range']::-webkit-slider-thumb {
     top: 43%;
     left: 0;
   }
+
+  .nav_w {
+    max-width: 1140px !important;
+  }
 }
 
 @media (max-width:1200px) {
