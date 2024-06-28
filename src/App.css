@@ -33,7 +33,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 .nav_bg {
   background: var(--color-bgcol);
   backdrop-filter: blur(15px);
@@ -65,11 +64,9 @@ body {
   border: none !important;
 }
 
-
 .btn-success {
   background-color: transparent !important;
   border: none !important;
-
 }
 
 .bg_lang {
@@ -689,14 +686,6 @@ bottom: 3%
 }
 
 
-
-
-
-
-
-
-
-
 .gap_90 {
   gap: 90px;
 }
@@ -888,12 +877,6 @@ top: 0%;
   padding-top: 124px;
   padding-bottom: 32px;
 }
-
-
-
-
-
-
 
 
 /* ===================== footer============== */
@@ -1113,45 +1096,28 @@ top: 0%;
     z-index: 2;
   }
   .ellipse_1 {
-    position: absolute;
     left: -22%;
-    bottom: 3%;
-    z-index: 1;
 }
 .ellipse_3 {
-  position: absolute;
-  bottom: -3%;
   left: -20%;
 }
 .ellipse_4 {
-  position: absolute;
   right: -20%;
-  bottom: 3%;
 }
 .ellipse_5 {
-  position: absolute;
   right: -20%;
-  top: -2%;
 }
 .ellipse_6 {
-  position: absolute;
   left: -22%;
-  top: 14%;
 }
 .ellipse_7 {
-  position: absolute;
   right: -21%;
-  bottom: 0%;
 }
 .ellipse_8 {
-  position: absolute;
   right: -18%;
-  top: 0%;
 }
 .ellipse_9 {
-  position: absolute;
   left: -20%;
-  bottom: -16%;
 }
 }
 
