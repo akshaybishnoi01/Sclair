@@ -17,7 +17,7 @@ const Herosection = () => {
     <>
       <header className=' header_bgimg position-relative'>
         <nav className=" nav_bg">
-          <Container className=' nav_w w-100'>
+          <Container className=' nav_w w-100 '>
             <div className="  d-flex justify-content-between align-items-center nav_py ">
               <div className=" d-flex align-items-center gap-2">
                 <img src={logo} alt="logo" />
@@ -54,9 +54,10 @@ const Herosection = () => {
               </div>
 
             </div>
+            
           </Container>
         </nav>
-        <Container>
+        <Container className=' position-relative'>
           <div className=' d-flex flex-column justify-content-center align-items-center'>
             <h1 className=' mb-0 ff-manrope fs-60 fw-bold lh-72 color_tertiary text-center presale_pt'>
               Presale is <span className=' color_emphasis'>Live</span>
@@ -71,6 +72,7 @@ const Herosection = () => {
               <img className=' w-100 headerimg_w' src={hero_img} alt="hero_img" />
             </div>
           </div>
+          <div className='ellipse ellipse_1'></div>
         </Container>
         <div className='mouse_box justify-content-center align-items-center d-sm-flex d-none pos_mou'>
           <Mouse />

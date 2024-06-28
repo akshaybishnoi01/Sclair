@@ -19,7 +19,7 @@ const SmartContract = () => {
   return (
     <>
       <div className=' smart_bg' id='privacy'>
-        <Container className=' smart_py'>
+        <Container className=' smart_py position-relative'>
           <div className=' d-flex flex-column justify-content-center align-items-center' data-aos="zoom-in-up">
             <h2 className=' mb-0 ff-manrope fs-48 lh-57 fw-semibold color_tertiary text-center'>
               <span className=' color_emphasis'>$CLAIR</span> Smart Contract Address
@@ -34,7 +34,7 @@ const SmartContract = () => {
               Built on the Ethereum blockchain and powered by the most advanced AI technology, Baby Sinclair has the potential to make millions in both early stages and long-term investment. Our strategic burn system, which will burn millions of $CLAIR quarterly, aims to increase its value significantly. Don't miss out! Get in early and secure your chance to become the next millionaire.
             </p>
           </div>
-
+          <div className='ellipse ellipse_3 '></div>
         </Container>
       </div>
     </>

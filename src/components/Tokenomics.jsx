@@ -8,7 +8,7 @@ const Tokenomics = () => {
     return (
         <>
             <div className=' chart_bg' id='tokenomics'>
-                <Container className=' tokenomice_py'>
+                <Container className=' tokenomice_py position-relative'>
                     <Row className=' justify-content-between '>
                         <Col lg={5} className=' d-flex justify-content-center ' data-aos="flip-left">
                             <div >
@@ -108,6 +108,7 @@ const Tokenomics = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='ellipse ellipse_4'></div>
                 </Container>
             </div>
         </>

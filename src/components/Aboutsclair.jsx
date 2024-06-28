@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Container } from 'react-bootstrap'
 import { Clockicon, Sclair1, Sclair2, Sclair3, Sclair4 } from '../assets/icon'
-import amount_bgimg from '../assets/image/amounts_bg.webp'
 import aboutlayer from '../assets/image/aboutlayer.webp'
 import cartoon1 from '../assets/image/cartoon.webp'
 import arrow1 from '../assets/image/arrow1.svg'
@@ -52,7 +51,7 @@ const Aboutsclair = () => {
     };
     return (
         <>
-            <div className=' py-md-5 py-3 position-relative' id='about'>
+            <div className=' py-md-5 py-3 position-relative ' id='about'>
                 <div className=' aboutlayer_pos d-xxl-none d-block'>
                     <img className=' w-100 ' src={aboutlayer} alt="#" />
                 </div>
@@ -61,7 +60,7 @@ const Aboutsclair = () => {
                         <img className=' w-100 ' src={aboutlayer} alt="#" />
                     </div>
                     <div className=' d-flex justify-content-center'>
-                        <div className=' d-flex flex-lg-row flex-column align-items-center gap-md-5 gap-sm-4 gap-3 amount_box w-100 position-relative z-3'>
+                        <div className=' d-flex flex-lg-row amount_bg flex-column align-items-center gap-md-5 gap-sm-4 gap-3 amount_box w-100 position-relative z-3'>
                             <div data-aos="fade-right">
                                 <div className=' d-flex align-items-center raised_gap'>
                                     <div>
@@ -193,10 +192,7 @@ const Aboutsclair = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=' pos_amount z-n1'>
-                                <img className=' w-100 box_bgimg_w' src={amount_bgimg} alt="#" />
                             </div>
-                        </div>
                     </div>
                     <div className=' d-flex justify-content-center align-items-center flex-column about_pt' data-aos="zoom-in-up">
                         <h3 className=' mb-0 ff-manrope fs-48 lh-57 fw-semibold color_tertiary text-center '>
@@ -218,6 +214,7 @@ const Aboutsclair = () => {
                     <div className=' cartoon_pos'>
                         <img className=' w-100 cart_w' src={cartoon1} alt="#" />
                     </div>
+                    <div className='ellipse ellipse_2'></div>
                 </Container>
 
             </div>
