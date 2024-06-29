@@ -118,8 +118,8 @@ const Aboutsclair = () => {
                                     </div>
                                 </div>
                                 <div className=' position-relative'>
-                                    <label for="range-input"></label>
-                                    <input type="range" name="range" id="range-input" />
+                                    <label for="range-input"></label> <input type="range" name="range" id="range-input" />
+                                    
                                     <div className=' aro_1 d-sm-block d-none'>
                                         <img src={arrow1} alt="#" />
                                     </div>

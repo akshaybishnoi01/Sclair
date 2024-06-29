@@ -23,14 +23,14 @@ const Social = () => {
               </div>
               <ul className=' mb-0 ps-0 d-flex justify-content-center gap-2 position-relative z-2'>
                 <li className=' circle_icon d-flex justify-content-center align-items-center'>
-                <a href="https://discord.com/" target=" blank"> <Discord /></a>
+                <a href="https://discord.com/" aria-label='discord' target=" blank"> <Discord /></a>
                 </li>
                 <li className=' circle_icon d-flex justify-content-center align-items-center'>
-                <a href="https://x.com/?lang=en" target="blank">
+                <a href="https://x.com/?lang=en" aria-label='twitter' target="blank">
                 <Twitter /></a>
                 </li>
                 <li className=' circle_icon d-flex justify-content-center align-items-center'>
-                <a href="https://telegram.org/" target="blank"><Telegram /></a>
+                <a href="https://telegram.org/" aria-label='telegram' target="blank"><Telegram /></a>
                 </li>
               </ul>
               <div className=' d-lg-block d-none'>

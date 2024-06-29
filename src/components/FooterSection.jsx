@@ -4,7 +4,7 @@ const FooterSection = () => {
   return (
     <>
       <div className=' footer_bg' id='whitepaper'>
-        <Container className=' footer-py'>
+        <Container className=' footer-py' id='mouse_1'>
           <div className=' d-flex flex-column justify-content-center align-items-center'>
             <p className=' mb-0 ff-manrope fs-60 lh-72 color_emphasis text-center'>
               $CLAIR

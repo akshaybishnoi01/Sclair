@@ -76,7 +76,7 @@ const Herosection = () => {
         </Container>
         <div className='mouse_box justify-content-center align-items-center d-sm-flex d-none pos_mou'>
          <ul className=' p-0 m-0'>
-          <li><a href="#whitepaper"><Mouse/></a></li>
+          <li><a href="#mouse_1"><Mouse/></a></li>
          </ul>
         </div>
       </div>
