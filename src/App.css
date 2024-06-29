@@ -332,7 +332,7 @@ input[type='range'] {
     125px !important;
   -webkit-appearance: none;
   background-color: #FFFFFF !important;
-  margin-top: -10px;
+  margin-top: 18px;
 }
 
 input[type='range']::-webkit-slider-runnable-track {
