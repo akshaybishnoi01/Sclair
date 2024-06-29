@@ -38,10 +38,8 @@ const Social = () => {
               </div>
             </div>
           </div>
-
-          <div>
             <img className='car_2' src={cartoon2} alt="#" />
-          </div>
+          
           <div className='ellipse ellipse_8'></div>
           <div className='ellipse ellipse_9'></div>
         </Container>

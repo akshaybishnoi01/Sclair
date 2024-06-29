@@ -869,7 +869,7 @@ top: 0%;
 .car_2 {
   position: absolute;
   bottom: 0%;
-  right: 0;
+  right: 2%;
   z-index: -2;
 }
 
@@ -944,7 +944,7 @@ top: 0%;
 @media (min-width:1400px) {
   .aboutlayer_pos {
     position: absolute;
-    bottom: 88%;
+    bottom: 86%;
     left: 0;
   }
 

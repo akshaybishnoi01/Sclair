@@ -68,9 +68,9 @@ const Herosection = () => {
             <button className=' mb-0 ff-manrope fs-16 lh-24 fw-bold buy_btn'>
               Buy $Clair <Buyicon />
             </button>
-            <div>
+           
               <img className=' w-100 headerimg_w' src={hero_img} alt="hero_img" />
-            </div>
+          
           </div>
           <div className='ellipse ellipse_1'></div>
         </Container>
