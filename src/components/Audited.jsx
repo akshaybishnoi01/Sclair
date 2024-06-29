@@ -24,7 +24,7 @@ const Audited = () => {
   };
   return (
     <>
-      <div className=' audited_bg overflow-hidden' id='audit'>
+      <div className=' audited_bg ' id='audit'>
         <Container className=' audited_py'>
           <Row data-aos="fade-left">
             <Col lg={6} className=' d-flex justify-content-center position-relative'>
