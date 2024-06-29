@@ -11,9 +11,9 @@ const Social = () => {
           <div className=' d-flex justify-content-center'>
             <div className=' footer_box w-100 position-relative' data-aos="zoom-in-up">
               <div className=' position-relative z-2'>
-                <h4 className=' mb-0 ff-manrope fs-48 fw-semibold lh-57 color_tertiary text-center'>
+                <h3 className=' mb-0 ff-manrope fs-48 fw-semibold lh-57 color_tertiary text-center'>
                   Our <span className=' color_emphasis'>Socials</span>
-                </h4>
+                </h3>
                 <p className=' mb-0 ff-manrope fs-16 fw-normal lh-24 color_tertiary text-center pt-3'>
                   Join us on social media for exclusive giveaways and stay connected!
                 </p>
@@ -21,17 +21,18 @@ const Social = () => {
                   “Exciting Releases of 'Bad Players' Avatars Coming Soon: Be Ready for the Fun!"
                 </p>
               </div>
-              <div className=' d-flex justify-content-center gap-2 position-relative z-2'>
-                <div className=' circle_icon d-flex justify-content-center align-items-center'>
-                  <Discord />
-                </div>
-                <div className=' circle_icon d-flex justify-content-center align-items-center'>
-                  <Twitter />
-                </div>
-                <div className=' circle_icon d-flex justify-content-center align-items-center'>
-                  <Telegram />
-                </div>
-              </div>
+              <ul className=' mb-0 ps-0 d-flex justify-content-center gap-2 position-relative z-2'>
+                <li className=' circle_icon d-flex justify-content-center align-items-center'>
+                <a href="https://discord.com/" target=" blank"> <Discord /></a>
+                </li>
+                <li className=' circle_icon d-flex justify-content-center align-items-center'>
+                <a href="https://x.com/?lang=en" target="blank">
+                <Twitter /></a>
+                </li>
+                <li className=' circle_icon d-flex justify-content-center align-items-center'>
+                <a href="https://telegram.org/" target="blank"><Telegram /></a>
+                </li>
+              </ul>
               <div className=' d-lg-block d-none'>
                 <img className=' box_bg w-100' src={Socialbox_bg} alt="#" />
               </div>

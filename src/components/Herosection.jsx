@@ -15,7 +15,7 @@ const Herosection = () => {
   }
   return (
     <>
-      <header className=' header_bgimg position-relative'>
+      <div className=' header_bgimg position-relative'>
         <nav className=" nav_bg">
           <Container className=' nav_w w-100 '>
             <div className="  d-flex justify-content-between align-items-center nav_py ">
@@ -36,7 +36,7 @@ const Herosection = () => {
 
                 </ul>
                 <Dropdown className=' ms-lg-5'>
-                  <Dropdown.Toggle variant="success" id="dropdown-basic" className=' d-flex justify-content-center align-items-center'>
+                  <Dropdown.Toggle variant="success" id="dropdown-basic" name='language_btn' className=' d-flex justify-content-center align-items-center'>
                     <Translate />
                   </Dropdown.Toggle>
 
@@ -75,9 +75,11 @@ const Herosection = () => {
           <div className='ellipse ellipse_1'></div>
         </Container>
         <div className='mouse_box justify-content-center align-items-center d-sm-flex d-none pos_mou'>
-          <Mouse />
+         <ul className=' p-0 m-0'>
+          <li><a href="#whitepaper"><Mouse/></a></li>
+         </ul>
         </div>
-      </header>
+      </div>
     </>
   )
 }

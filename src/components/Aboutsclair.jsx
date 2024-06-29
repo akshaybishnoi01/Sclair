@@ -118,7 +118,8 @@ const Aboutsclair = () => {
                                     </div>
                                 </div>
                                 <div className=' position-relative'>
-                                    <input type="range" name="" id="" />
+                                    <label for="range-input"></label>
+                                    <input type="range" name="range" id="range-input" />
                                     <div className=' aro_1 d-sm-block d-none'>
                                         <img src={arrow1} alt="#" />
                                     </div>
@@ -195,9 +196,9 @@ const Aboutsclair = () => {
                             </div>
                     </div>
                     <div className=' d-flex justify-content-center align-items-center flex-column about_pt' data-aos="zoom-in-up">
-                        <h3 className=' mb-0 ff-manrope fs-48 lh-57 fw-semibold color_tertiary text-center '>
+                        <h2 className=' mb-0 ff-manrope fs-48 lh-57 fw-semibold color_tertiary text-center '>
                             About <span className=' color_emphasis'>$CLAIR</span>
-                        </h3>
+                        </h2>
                         <p className=' mb-0 ff-manrope fs-16 lh-24 fw-normal color_lightgray mw_776 text-center pt-3'>
                             As you navigate through the avatars, you'll find each one has a unique voice, bringing laughter and a touch of sarcasm to the otherwise serious discussions in the crypto space.
                         </p>
