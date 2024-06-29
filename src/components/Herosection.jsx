@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, Nav, Navbar, Dropdown } from 'react-bootstrap';
+import { Container,   Dropdown } from 'react-bootstrap';
 import logo from '../assets/image/logo.svg'
 import { Buyicon, Mouse, Translate } from '../assets/icon';
 import hero_img from '../assets/image/headerimg.webp'
@@ -35,14 +35,14 @@ const Herosection = () => {
                   <li onClick={handleopen}><a className=" mb-0 webkit  ff-manrope fs-16 fw-medium lh-24 color_secondary" href="#whitepaper">White Paper</a></li>
 
                 </ul>
-                <Dropdown className=' ms-lg-5'>
-                  <Dropdown.Toggle variant="success" id="dropdown-basic" name='language_btn' className=' d-flex justify-content-center align-items-center'>
+                <Dropdown className=' ms-lg-5 '>
+                  <Dropdown.Toggle variant="success" id="text" aria-label=' translater'  name='language_btn' className=' d-flex justify-content-center align-items-center'>
                     <Translate />
                   </Dropdown.Toggle>
 
-                  <Dropdown.Menu className=' bg_lang'>
-                    <Dropdown.Item className=' lang' href="#English">English</Dropdown.Item>
-                    <Dropdown.Item className=' lang' href="#Spanish">Spanish</Dropdown.Item>
+                  <Dropdown.Menu className=' bg_lang '>
+                    <Dropdown.Item className=' lang' href="#English" aria-label='English'>English</Dropdown.Item>
+                    <Dropdown.Item className=' lang' href="#Spanish" aria-label='Spanish'>Spanish</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
               </div>
@@ -76,7 +76,7 @@ const Herosection = () => {
         </Container>
         <div className='mouse_box justify-content-center align-items-center d-sm-flex d-none pos_mou'>
          <ul className=' p-0 m-0'>
-          <li><a href="#mouse_1"><Mouse/></a></li>
+          <li><a href="#mouse_1" aria-label=' Mouse'><Mouse/></a></li>
          </ul>
         </div>
       </div>
